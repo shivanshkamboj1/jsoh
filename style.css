@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+h1 {
+    font-family: 'Squada One', sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+}
+header{
+    background-color: #1AC073;
+    height: 840px;
+    /* width: 1440px; */
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#navbar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bar{
+    position: relative;
+    left: -25px;
+    top: -2px;
+}
+.innernav{
+    height: 24px;
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.innernav div p{
+    width: 89px;
+    height: 20px;
+    font-weight: 400;
+    font-family: 'Squada One', sans-serif;
+    line-height: 20px;
+    font-size: 32px;
+    margin-left: 3px;
+}
+.innernav div span{
+    width: 8px;
+    height: 8px;
+    background-color: #F3BA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: -2px;
+}
+.innernav div:nth-child(2){
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    width: 417px;
+}
+.innernav div:nth-child(3){
+    width: 75px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1.2%;
+
+}
+header content{
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding-bottom: 50px;
+}
+content div{
+    width: 534px;
+    height: 317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.heading{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0%;
+    margin-left: 2px;
+}
+.heading2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 7px;
+
+}
+content div div{
+    width: 400px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+content div input{
+    width: 71%;
+    height: 58px;
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 20px;
+}
+content div button{
+    width: 28%;
+    height: 58px;
+    background-color: white;
+    outline: none;
+    border: none;
+    background-color: #F3BA00;
+    color: white;
+    /* border: 10px; */
+}
+.footerIn{
+    background-color: #1AC073;
+    color: #FFFFFF;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact{
+    display: block;
+    height: 600px;
+    background-color: #F7F8FA;
+}
+.C{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:109px 150px 100px 137px
+}
+.contactInner{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+contact div div div :nth-child(1){
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -1.2%;
+
+}
+contact div div div :nth-child(2){
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -1.2%;
+}.form{
+    position: relative;
+    margin-top: 50px;
+    
+}
+.form input{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -1.2%;
+    width: 300px;
+    height: 58px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    /* color: white; */
+    padding: 25px;
+}
+.form textarea{
+    width: 600px;
+    height: 164px;
+    border-radius: 10px;
+    /* color: white; */
+    border: none;
+    outline: none;
+    padding: 20px;
+    resize: none;
+}
+.form button{
+    width: 210px;
+    height: 58px;
+    background-color: #1AC073;
+    top: 269px;
+    left: -0.5px;
+    padding-top: 19px;
+    padding-right: 25px;
+    padding-bottom: 19px;
+    padding-left: 25px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.innernav span{
+    height: 0px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 58px;
+}
